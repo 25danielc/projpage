@@ -1,33 +1,8 @@
 # Daniel Chen - Portfolio
 
-Easy website for projects built with HTML, CSS, JavaScript, and Tailwind CSS.
+Easy website for projects: built with HTML, CSS, JavaScript, and Tailwind CSS.
 
-## 🚀 Live Demo
-
-Visit the live site: [Your GitHub Pages URL]
-
-## 🛠 Getting Started
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Start local development server:
-   ```bash
-   npm run serve
-   ```
-
-3. Open the URL shown in terminal (usually http://localhost:3000 or similar)
-
-## 📦 Build for Production
-
-To build minified CSS for deployment:
-```bash
-npm run build
-```
-
-## 🏗 Project Structure
+## Project Structure
 
 - `src/index.html` - Main portfolio page
 - `src/js/projects.js` - Project data (easy to add new projects)
@@ -37,7 +12,7 @@ npm run build
 - `src/images/` - Project images
 - `tailwind.config.js` - Tailwind configuration
 
-## ➕ Adding New Projects
+## Adding New Projects
 
 Edit `src/js/projects.js` and add a new project object, it's super easy to understand:
 
@@ -55,7 +30,7 @@ Edit `src/js/projects.js` and add a new project object, it's super easy to under
 }
 ```
 
-## 🎨 Features
+## Features
 
 - ✅ Responsive design (mobile-friendly)
 - ✅ Clean, modern UI with Tailwind CSS
