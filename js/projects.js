@@ -4,7 +4,7 @@ const projects = [
         id: 1,
         title: "DormFindr",
         description: "Mockup dorm e-boards for University of Michigain Students. Meet people in your hallway without knocking and leave notes.",
-        image: "/images/dormfindr.png",
+        image: "images/dormfindr.png",
         techStack: ["HTML", "CSS", "JavaScript"],
         links: [
             { text: "Website", url: "https://dormfindr.up.railway.app/", type: "primary" },
