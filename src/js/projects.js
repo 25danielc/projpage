@@ -4,8 +4,8 @@ const projects = [
         id: 1,
         title: "DormFindr",
         description: "Mockup dorm e-boards for University of Michigain Students. Meet people in your hallway without knocking and leave notes.",
-        image: "/images/dormfindr.png",
-        techStack: ["HTML", "CSS", "JavaScript"],
+        image: "images/dormfindr.png",
+        techStack: ["html", "css", "javascript"],
         links: [
             { text: "Website", url: "https://dormfindr.up.railway.app/", type: "primary" },
             { text: "GitHub", url: "#", type: "secondary" }
@@ -13,13 +13,12 @@ const projects = [
     },
     {
         id: 2,
-        title: "Sample Project 2",
-        description: "Another sample project to show how easy it is to add new projects. Just add a new object to this array with your project details.",
-        image: "https://via.placeholder.com/400x250/3b82f6/ffffff?text=Project+2",
-        techStack: ["React", "Node.js", "MongoDB"],
+        title: "Lol-Clacks",
+        description: "League of Legends based physics ball game, based on popular instagram page @Earclacks. Check out @lol_clacks for some battles :) ",
+        image: "images/lolclacks.JPEG",
+        techStack: ["html", "javascript", "ctx"],
         links: [
-            { text: "Live Demo", url: "#", type: "primary" },
-            { text: "Source Code", url: "#", type: "secondary" }
+            { text: "Website", url: "https://lolclacks.vercel.app", type: "primary" },
         ]
     },
     {
