@@ -14,7 +14,7 @@ const projects = [
     {
         id: 2,
         title: "Lol-Clacks",
-        description: "League of Legends based physics ball game, based on popular instagram page @Earclacks. Check out @lol_clacks for some battles :) ",
+        description: "got bored during winter break because my mom blocked #leagueoflegends, developed a physics engine emulating league characters inspod (ripped off from) by @earclacks on insta :) ",
         image: "images/lolclacks.JPEG",
         techStack: ["html", "javascript", "ctx"],
         links: [
