@@ -12,8 +12,8 @@ const projects = [
         ]
     },
     {
-        id: 2,
-        title: "Lol-Clacks",
+        id: 3,
+        title: "lolclacks",
         description: "got bored during winter break because my mom blocked #leagueoflegends, developed a physics engine emulating league characters inspod (ripped off from) by @earclacks on insta :) ",
         image: "images/lolclacks.JPEG",
         techStack: ["html", "javascript", "ctx"],
@@ -22,15 +22,25 @@ const projects = [
         ]
     },
     {
-        id: 3,
-        title: "Sample Project 3",
-        description: "A third example project demonstrating the grid layout. Each project card includes an image, description, tech stack, and action buttons.",
-        image: "https://via.placeholder.com/400x250/10b981/ffffff?text=Project+3",
-        techStack: ["Python", "Django", "PostgreSQL"],
+        id: 2,
+        title: "SnapTask",
+        description: "AI-powered job matching platform that connects clients with skilled workers for projects. Workers create profiles with skills, location, and availability, while clients post projects and get AI-matched with suitable workers who can accept, complete, and get reviewed for their work.",
+        image: "images/snaptask.png",
+        techStack: ["Next.js", "Supabase", "TypeScript"],
         links: [
-            { text: "Try It", url: "#", type: "primary" }
+            { text: "Website", url: "https://snaptask-ai.vercel.app/", type: "primary" }
         ]
     },
+    {
+        id: 4,
+        title: "New Years Bubbles",
+        description: "Add your project description here.",
+        image: "https://via.placeholder.com/400x250/8b5cf6/ffffff?text=New+Years+Bubbles",
+        techStack: ["Tech", "Stack", "Here"],
+        links: [
+            { text: "Website", url: "#", type: "primary" }
+        ]
+    }
     
 ];
 
