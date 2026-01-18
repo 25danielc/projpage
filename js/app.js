@@ -31,8 +31,7 @@ function createProjectCard(project) {
         `<span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs rounded-full">${tech}</span>`
     ).join('');
 
-    return `
-        <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+    const imageHTML = project.image ? `
             <!-- Project Image -->
             <div class="aspect-video bg-gray-100 overflow-hidden">
                 <img src="${project.image}" 
@@ -40,7 +39,11 @@ function createProjectCard(project) {
                      class="w-full h-full object-cover"
                      onerror="this.src='https://via.placeholder.com/400x250/f3f4f6/6b7280?text=Image+Not+Found'">
             </div>
-            
+    ` : '';
+
+    return `
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+            ${imageHTML}
             <!-- Project Content -->
             <div class="p-6">
                 <!-- Title -->
