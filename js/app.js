@@ -11,7 +11,10 @@ function renderProjects() {
         return;
     }
 
-    projectsGrid.innerHTML = projects.map(project => createProjectCard(project)).join('');
+    projectsGrid.innerHTML = projects
+        .filter(project => !project.hidden)
+        .map(project => createProjectCard(project))
+        .join('');
 }
 
 function createProjectCard(project) {
@@ -50,17 +53,13 @@ function createProjectCard(project) {
                 <h3 class="text-xl font-bold text-gray-900 mb-3">${project.title}</h3>
                 
                 <!-- Tech Stack -->
-                <div class="flex flex-wrap gap-2 mb-4">
-                    ${techTagsHTML}
-                </div>
+                ${techTagsHTML ? `<div class="flex flex-wrap gap-2 mb-4">${techTagsHTML}</div>` : ''}
                 
                 <!-- Description -->
                 <p class="text-gray-600 text-sm leading-relaxed mb-6">${project.description}</p>
                 
                 <!-- Action Buttons -->
-                <div class="flex gap-3">
-                    ${linksHTML}
-                </div>
+                ${linksHTML ? `<div class="flex gap-3">${linksHTML}</div>` : ''}
             </div>
         </div>
     `;
